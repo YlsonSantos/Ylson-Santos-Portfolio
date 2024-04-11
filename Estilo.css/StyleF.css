@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.navegação{
+    height: 100px;
+    background-color: DarkOrange;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    flex:20%;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    color: Crimson;
+    font-size: 25px;
+}
+.opçoes{
+    flex: 80%;
+    text-align: right;
+    padding: 25px;
+}
+a{
+    color: black ;
+    font-family: "Arvo", serif;
+    font-weight: bolder;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: crimson;
+    
+}
+.titulo{
+    text-align: center;
+    font-family: "Arvo", serif;
+    font-size: 20px;
+}
+.header{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    background-color: #ffff;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 650px;
+    padding-top: 100px;
+}
+.ufpe{
+    flex: 40%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.texto_div{
+    margin-right: 5%;
+    flex: 40%;
+}
+.texto_div h2{
+    font-family: "Arvo" , serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+.texto_div h3{
+    font-family: "Arvo", serif;
+    text-align: center;
+    
+}
+.texto_div h4{
+    font-family: "Arvo", serif;
+    text-align: center;
+}
+.texto_div ul{
+    font-family: "Arvo", serif;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    padding: 3%;
+}
+section{
+    margin-top: 80px;
+    border: 1px solid black;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: inline-block;
+    text-align: center;
+    padding: 0%;
+    background-image: linear-gradient(180deg, tomato, Orange);    
+    width: 100%;
+}
